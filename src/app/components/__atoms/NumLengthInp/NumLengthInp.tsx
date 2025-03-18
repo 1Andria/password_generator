@@ -14,7 +14,7 @@ function NumLengthInp() {
         max={22}
         value={PassLenght}
         onChange={(e) => setPassLenght(Number(e.target.value))}
-        className="w-full h-[28px]"
+        className="w-full h-[28px]  accent-[#A4FFAF]"
       />
     </>
   );
