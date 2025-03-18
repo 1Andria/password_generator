@@ -19,7 +19,10 @@ function Generator() {
 
   return (
     <>
-      <form className="max-w-[540px] w-full h-[528px] bg-[#24232C] flex flex-col justify-between pl-[30px] pr-[30px] pt-[34px] pb-[32px]">
+      <form
+        onSubmit={(e) => e.preventDefault()}
+        className="max-w-[540px] w-full h-[528px] bg-[#24232C] flex flex-col justify-between pl-[30px] pr-[30px] pt-[34px] pb-[32px]"
+      >
         <div className="flex justify-between items-center">
           <h3 className="text-[#E6E5EA] text-[18px] font-bold">
             Character Length

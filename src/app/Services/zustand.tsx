@@ -54,10 +54,20 @@ export const useCopy = create<CopyType>((set) => ({
 
 type CopyTypeText = {
   copyText: boolean;
-  setCopyText: () => void;
+  setCopyText: (value: boolean) => void;
 };
 
 export const useCopyTxt = create<CopyTypeText>((set) => ({
   copyText: false,
-  setCopyText: () => set((state) => ({ copyText: !state.copyText })),
+  setCopyText: (value: boolean) => set({ copyText: value }),
+}));
+
+type PassType = {
+  password: string;
+  setPassword: (password: string) => void;
+};
+
+export const useGeneratedPassword = create<PassType>((set) => ({
+  password: "Password",
+  setPassword: (password) => set({ password }),
 }));
