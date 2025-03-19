@@ -13,7 +13,9 @@ function PasswordHeader() {
       .then(() => {
         setCopy(true);
       })
-      .catch((err) => {});
+      .catch((err) => {
+        alert("Something is wrong." + err);
+      });
   };
 
   if (password === "Password") {
