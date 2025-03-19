@@ -12,7 +12,7 @@ function Condition({ txt, isChecked, change }: ConditionType) {
     <>
       <div
         onClick={change}
-        className="flex w-auto gap-[24px] max-[400px]:gap-[12px] items-center cursor-pointer"
+        className="flex w-auto gap-[24px]  max-[400px]:gap-[12px] items-center cursor-pointer"
       >
         <div
           className={`w-[20px] h-[20px] ${
@@ -23,7 +23,9 @@ function Condition({ txt, isChecked, change }: ConditionType) {
         >
           <Checked isChecked={isChecked} />
         </div>
-        <h2 className="text-[18px] font-bold text-[#E6E5EA]">{txt}</h2>
+        <h2 className="text-[18px] max-[510px]:text-[16px] font-bold text-[#E6E5EA]">
+          {txt}
+        </h2>
       </div>
     </>
   );

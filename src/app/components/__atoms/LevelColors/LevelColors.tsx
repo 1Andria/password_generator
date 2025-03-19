@@ -52,7 +52,7 @@ function LevelColors() {
 
   return (
     <>
-      <div className="flex items-center gap-[15px]">
+      <div className="flex items-center gap-[15px] max-[510px]:gap-[8px]">
         <h2 className="text-[#E6E5EA] text-[24px] font-bold max-[510px]:text-[16px]">
           {strengthText}
         </h2>

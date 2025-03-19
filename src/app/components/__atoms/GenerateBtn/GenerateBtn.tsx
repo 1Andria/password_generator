@@ -78,7 +78,7 @@ function GenerateBtn() {
         onClick={genPassword}
         onMouseEnter={ChangeBtnColor}
         onMouseLeave={ChangeBtnColor}
-        className="w-full h-[65px] bg-[#A4FFAF] hover:bg-transparent hover:border-[#A4FFAF] hover:border-[2px] items-center justify-center text-[18px] text-[#24232C] font-bold hover:text-[#A4FFAF] flex gap-[20px]"
+        className="w-full h-[65px] bg-[#A4FFAF] hover:bg-transparent hover:border-[#A4FFAF] hover:border-[2px] items-center justify-center text-[18px] text-[#24232C] font-bold hover:text-[#A4FFAF] flex gap-[20px] max-[510px]:h-[56px]"
       >
         <h3>GENERATE</h3>
         <Arrow />

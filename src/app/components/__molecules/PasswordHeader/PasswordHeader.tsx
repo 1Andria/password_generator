@@ -24,7 +24,7 @@ function PasswordHeader() {
 
   return (
     <>
-      <div className="max-w-[540px] w-full pl-[30px] pr-[30px] h-[80px] bg-[#24232C] flex items-center justify-between max-[510px]:pl-[15px] max-[510px]:pr-[15px]">
+      <div className="max-w-[540px] w-full pl-[30px] pr-[30px] pt-[19px] pb-[19px] bg-[#24232C] flex items-center justify-between max-[510px]:pl-[15px] max-[510px]:pr-[15px]">
         <h1
           className={`text-[28px] max-[510px]:text-[18px] ${
             password === "Password" ? "text-[#54535b]" : "text-[#E6E5EA]"
