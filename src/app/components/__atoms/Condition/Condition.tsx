@@ -12,7 +12,7 @@ function Condition({ txt, isChecked, change }: ConditionType) {
     <>
       <div
         onClick={change}
-        className="flex w-auto gap-[24px] items-center cursor-pointer"
+        className="flex w-auto gap-[24px] max-[400px]:gap-[12px] items-center cursor-pointer"
       >
         <div
           className={`w-[20px] h-[20px] ${

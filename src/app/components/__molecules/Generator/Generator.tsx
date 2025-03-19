@@ -21,7 +21,7 @@ function Generator() {
     <>
       <form
         onSubmit={(e) => e.preventDefault()}
-        className="max-w-[540px] w-full h-[528px] bg-[#24232C] flex flex-col justify-between pl-[30px] pr-[30px] pt-[34px] pb-[32px]"
+        className="max-w-[540px] w-full h-[528px] bg-[#24232C] flex flex-col justify-between pl-[30px] pr-[30px] pt-[34px] pb-[32px] max-[510px]:pl-[15px] max-[510px]:pr-[15px]"
       >
         <div className="flex justify-between items-center">
           <h3 className="text-[#E6E5EA] text-[18px] font-bold">

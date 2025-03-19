@@ -22,9 +22,9 @@ function PasswordHeader() {
 
   return (
     <>
-      <div className="max-w-[540px] w-full pl-[30px] pr-[30px] h-[80px] bg-[#24232C] flex items-center justify-between">
+      <div className="max-w-[540px] w-full pl-[30px] pr-[30px] h-[80px] bg-[#24232C] flex items-center justify-between max-[510px]:pl-[15px] max-[510px]:pr-[15px]">
         <h1
-          className={`text-[28px] ${
+          className={`text-[28px] max-[510px]:text-[18px] ${
             password === "Password" ? "text-[#54535b]" : "text-[#E6E5EA]"
           } font-bold `}
         >
@@ -32,7 +32,9 @@ function PasswordHeader() {
         </h1>
         <div className="flex gap-[10px] items-center">
           {CopyText && (
-            <h2 className="text-[18px] text-[#A4FFAF] font-bold">COPIED</h2>
+            <h2 className="text-[18px] max-[510px]:text-[14px] text-[#A4FFAF] font-bold">
+              COPIED
+            </h2>
           )}
           <div onClick={copyToClipboard}>
             <Copy />

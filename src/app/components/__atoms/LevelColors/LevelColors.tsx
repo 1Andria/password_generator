@@ -53,7 +53,9 @@ function LevelColors() {
   return (
     <>
       <div className="flex items-center gap-[15px]">
-        <h2 className="text-[#E6E5EA] text-[24px] font-bold">{strengthText}</h2>
+        <h2 className="text-[#E6E5EA] text-[24px] font-bold max-[510px]:text-[16px]">
+          {strengthText}
+        </h2>
         <div className="flex gap-[8px]">
           {colors.map((color, index) => (
             <div key={index} className={`w-[10px] h-[28px]  ${color}`}></div>
